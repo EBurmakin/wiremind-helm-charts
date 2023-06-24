@@ -39,8 +39,6 @@ config:
   - dpkg
   - rpm
 postgresql:
-# The dependant Postgres chart can be disabled, to connect to
-# an existing database by defining config.postgresURI
   enabled: true
   image:
     debug: true
